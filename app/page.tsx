@@ -6,15 +6,13 @@ import Socials from "./components/socials/Socials";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar />
       <main>
-        <div className="px-52 bg-black">
           <Introduction />
           <Socials />
           <Projects />
-        </div>
       </main>
-    </div>
+    </>
   );
 }
