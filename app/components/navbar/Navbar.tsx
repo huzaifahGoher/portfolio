@@ -29,8 +29,8 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 w-full z-100  bg-black backdrop-blur-md transition-all duration-300 ${
-        blur === 1 && "shadow-sm shadow-white"
+      className={`fixed top-0 w-full z-100 transition-all duration-300 ${
+        blur === 1 && "shadow-sm shadow-white backdrop-blur-md"
       }`}
     >
       <nav className="max-w-6xl flex flex-row flex-1 justify-between items-center px-6 py-6 m-auto">
