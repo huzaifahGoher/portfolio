@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Introduction from "./components/Introduction/Introduction";
 import Projects from "./components/projects/Projects";
 import Socials from "./components/socials/Socials";
+import Contact from "./components/contact/Contact";
 
 export default function Home() {
   return (
@@ -10,8 +11,8 @@ export default function Home() {
       <Navbar />
       <main>
           <Introduction />
-          <Socials />
           <Projects />
+          <Contact />
       </main>
     </>
   );

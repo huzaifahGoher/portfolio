@@ -23,7 +23,7 @@ const Project = ({ project }: { project: any }) => {
             </span>
           )}
         </div>
-        <p className="text-paper/50 text-sm leading-relaxed mb-4 max-w-xl">
+        <p className="text-paper/50 text-sm leading-relaxed mb-4">
           {project.description}
         </p>
         <div className="flex flex-wrap gap-2">

@@ -18,9 +18,22 @@ const Introduction = () => {
       <div className="m-auto">
         <div className="max-w-4xl flex flex-col gap-10">
           <div className="flex flex-col gap-10 pointer-events-none">
-            <h1 className="text-9xl font-display font-bold tracking-tight text-gradient animate-fade-in">
+            <h1 className="text-9xl/35 font-display font-bold tracking-tight text-gradient animate-fade-in">
               Crafting Digital Experiences.
             </h1>
+          </div>
+          <div className="text-paper/60 text-lg md:text-xl animate-fade-up">
+            <p>
+              <span className="text-paper font-medium">Huzaifah Goher</span> I'm
+              a Software Engineer graduate from COMSATS University, where I
+              built a VTuber platform as my Final Year Project using the MERN
+              stack, Three.js, and Kalidokit — blending real-time 3D rendering
+              with motion capture in the browser.
+            </p>
+            <p>
+              I'm currently working at ELIXIR Technologies, developing rich text
+              editing experiences with React and the Lexical library.
+            </p>
           </div>
 
           <div className="flex flex-wrap gap-4 animate-fade-up delay-400">

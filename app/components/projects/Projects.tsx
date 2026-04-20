@@ -39,23 +39,22 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div
-      id="work"
-      className="flex flex-1 w-full flex-col gap-10 items-center justify-between pb-32 px-16 bg-white dark:bg-black sm:items-start"
-    >
-      <div className="flex flex-col justify-between mb-20 gap-10">
-        <div>
-          <p className="font-mono text-xs text-accent tracking-widest uppercase mb-3">
-            Work
-          </p>
-          <h2 className="font-display text-5xl md:text-6xl font-bold">
-            Projects<span className="text-accent">.</span>
-          </h2>
-        </div>
-        <div className="">
+    <div id="work" className="w-full">
+      <div className="max-w-4xl m-auto flex flex-1 flex-col items-center pb-32 ">
+        <div className="flex flex-col justify-between mb-20 gap-10">
+          <div>
+            <p className="font-mono text-xs text-accent tracking-widest uppercase mb-3">
+              Work
+            </p>
+            <h2 className="font-display text-5xl md:text-6xl font-bold">
+              Projects<span className="text-accent">.</span>
+            </h2>
+          </div>
+          <div className="">
             {projects.map((item: any, index: number) => (
-                <Project project={item} key={index}/>
+              <Project project={item} key={index} />
             ))}
+          </div>
         </div>
       </div>
     </div>
