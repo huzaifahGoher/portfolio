@@ -54,18 +54,7 @@
 
 body {
   color: var(--foreground);
-}
-
-
-body::before{
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image: linear-gradient(#c8a96e 1px, transparent 1px), linear-gradient(90deg, #c8a96e 1px, transparent 1px);
-  background-size: 60px 60px;
-  opacity: 0.003;
-  pointer-events: none;
-  z-index: 9998;
+  background-color: var(--background);
 }
 
 
