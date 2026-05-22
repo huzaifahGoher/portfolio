@@ -8,7 +8,7 @@ const projects = [
     description:
       "A rich text editor built with React and Meta's Lexical framework. Features real-time collaboration via Yjs, custom nodes (links, images, tables), floating menus, a responsive toolbar with overflow handling, and serialization support.",
     tags: ["Next.js", "TypeScript", "Lexical", "Yjs", "Design Library"],
-    link: "https://lexical-project-huzaifah.vercel.app",
+    link: "https://lexical-project.vercel.app",
     repo: "https://github.com/huzaifahGoher/lexical-project",
     featured: true,
     year: "2025",
