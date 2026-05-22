@@ -15,14 +15,14 @@ const Introduction = () => {
           }}
         ></div>
       </div>
-      <div className="m-auto">
+      <div className="m-auto px-6">
         <div className="max-w-4xl flex flex-col gap-10">
           <div className="flex flex-col gap-10 pointer-events-none">
-            <h1 className="text-9xl/35 font-display font-bold tracking-tight text-gradient animate-fade-in">
+            <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl/35 font-display font-bold tracking-tight text-gradient animate-fade-in">
               Crafting Digital Experiences.
             </h1>
           </div>
-          <div className="text-paper/60 text-lg md:text-xl animate-fade-up">
+          <div className="text-paper/60 text-base md:text-lg lg:text-xl animate-fade-up">
             <p>
               <span className="text-paper font-medium">Huzaifah Goher</span> I'm
               a Software Engineer graduate from COMSATS University, where I
@@ -30,7 +30,7 @@ const Introduction = () => {
               stack, Three.js, and Kalidokit — blending real-time 3D rendering
               with motion capture in the browser.
             </p>
-            <p>
+            <p className="mt-3">
               I'm currently working at ELIXIR Technologies, developing rich text
               editing experiences with React and the Lexical library.
             </p>

@@ -4,49 +4,49 @@ import Project from "../project/Project";
 const projects = [
   {
     number: "01",
-    title: "Project Alpha",
+    title: "Lexical Editor",
     description:
-      "A full-stack SaaS platform with real-time collaboration features, built to scale to thousands of users.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
-    link: "#",
-    repo: "#",
+      "A rich text editor built with React and Meta's Lexical framework. Features real-time collaboration via Yjs, custom nodes (links, images, tables), floating menus, a responsive toolbar with overflow handling, and serialization support.",
+    tags: ["Next.js", "TypeScript", "Lexical", "Yjs", "Design Library"],
+    link: "https://lexical-project-huzaifah.vercel.app",
+    repo: "https://github.com/huzaifahGoher/lexical-project",
     featured: true,
-    year: "2024",
+    year: "2025",
   },
   {
     number: "02",
-    title: "Design System",
+    title: "Three.js Data Globe",
     description:
-      "A comprehensive component library and design system used across multiple products, with full Storybook docs.",
-    tags: ["React", "Tailwind", "Storybook", "Radix UI"],
-    link: "#",
-    repo: "#",
+      "An interactive 3D globe visualization with real country borders from GeoJSON, data-driven population spikes, raycasting tooltips, animated camera intro, and play/pause controls. Built with a clean useThreeScene hook architecture.",
+    tags: ["React", "Three.js", "TypeScript", "Vite", "Design Library"],
+    link: "https://threejs-project-steel.vercel.app",
+    repo: "https://github.com/huzaifahGoher/threejs-project",
     featured: true,
-    year: "2024",
+    year: "2025",
   },
   {
     number: "03",
-    title: "API Gateway",
+    title: "Design Library",
     description:
-      "High-performance REST & GraphQL API gateway with rate limiting, auth middleware, and observability.",
-    tags: ["Node.js", "GraphQL", "Redis", "Docker"],
-    link: "#",
-    repo: "#",
-    featured: false,
-    year: "2023",
+      "A reusable React component library with a full theming system (light/dark), semantic color tokens, and components like Button, Checkbox, Select, and Slider. Published on npm and used across multiple projects.",
+    tags: ["React", "TypeScript", "Rollup", "npm"],
+    link: "",
+    repo: "https://github.com/huzaifahGoher/design-library",
+    featured: true,
+    year: "2025",
   },
 ];
 
 const Projects = () => {
   return (
-    <div id="work" className="w-full">
+    <div id="work" className="w-full px-6">
       <div className="max-w-4xl m-auto flex flex-1 flex-col items-center pb-32 ">
-        <div className="flex flex-col justify-between mb-20 gap-10">
+        <div className="flex flex-col justify-between mb-20 gap-10 w-full">
           <div>
             <p className="font-mono text-xs text-accent tracking-widest uppercase mb-3">
               Work
             </p>
-            <h2 className="font-display text-5xl md:text-6xl font-bold">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold">
               Projects<span className="text-accent">.</span>
             </h2>
           </div>
